@@ -1,0 +1,35 @@
+/* src/components/FeaturePage.css */
+   .feature-page {
+     font-family: Arial, sans-serif;
+     padding: 20px;
+     text-align: center;
+   }
+
+   .header {
+     background-color: #f8f9fa;
+     padding: 20px;
+     border-bottom: 1px solid #dee2e6;
+   }
+
+   .feature-description, .benefits, .screenshots, .call-to-action {
+     margin: 20px 0;
+   }
+
+   .screenshots img {
+     width: 200px;
+     margin: 10px;
+   }
+
+   .call-to-action button {
+     margin: 10px;
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: white;
+     border: none;
+     cursor: pointer;
+   }
+
+   .call-to-action button:hover {
+     background-color: #0056b3;
+   }
+   
