@@ -1,0 +1,20 @@
+Create a new React project:
+   bash
+   npx create-react-app zymo-feature-page
+   cd zymo-feature-page
+Install Firebase:
+   bash
+   npm install firebase
+Deploy on Vercel:
+   - Install Vercel CLI: npm install -g vercel
+   - Deploy: vercel
+Deploy on GitHub Pages:
+   - Install GitHub Pages package: npm install gh-pages --save-dev
+   - Add the following scripts to package.json:
+     json
+     "scripts": {
+       "predeploy": "npm run build",
+       "deploy": "gh-pages -d build"
+     }
+     
+   - Deploy: npm run deploy
